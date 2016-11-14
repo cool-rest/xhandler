@@ -126,7 +126,7 @@ Feel free to put up a PR linking your middleware if you have built one:
 | [xmux](https://github.com/rs/xmux) | [Olivier Poitrey](https://github.com/rs) | HTTP request muxer |
 | [xlog](https://github.com/cool-rest/xlog) | [Olivier Poitrey](https://github.com/rs) | HTTP handler logger |
 | [xstats](https://github.com/cool-rest/xstats) | [Olivier Poitrey](https://github.com/rs) | A generic client for service instrumentation |
-| [xaccess](https://github.com/rs/xaccess) | [Olivier Poitrey](https://github.com/rs) | HTTP handler access logger with [xlog](https://github.com/cool-rest/xlog) and [xstats](https://github.com/cool-rest/xstats) |
+| [xaccess](https://github.com/cool-rest/xaccess) | [Olivier Poitrey](https://github.com/rs) | HTTP handler access logger with [xlog](https://github.com/cool-rest/xlog) and [xstats](https://github.com/cool-rest/xstats) |
 | [cors](https://github.com/cool-rest/cors) | [Olivier Poitrey](https://github.com/rs) | [Cross Origin Resource Sharing](http://www.w3.org/TR/cors/) (CORS) support |
 
 ## Licenses
