@@ -1,6 +1,6 @@
 # XHandler
 
-[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/rs/xhandler) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/xhandler/master/LICENSE) [![Build Status](https://travis-ci.org/rs/xhandler.svg?branch=master)](https://travis-ci.org/rs/xhandler) [![Coverage](http://gocover.io/_badge/github.com/rs/xhandler)](http://gocover.io/github.com/rs/xhandler)
+[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/cool-rest/xhandler) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/xhandler/master/LICENSE) [![Build Status](https://travis-ci.org/rs/xhandler.svg?branch=master)](https://travis-ci.org/rs/xhandler) [![Coverage](http://gocover.io/_badge/github.com/cool-rest/xhandler)](http://gocover.io/github.com/cool-rest/xhandler)
 
 XHandler is a bridge between [net/context](https://godoc.org/golang.org/x/net/context) and `http.Handler`.
 
@@ -14,7 +14,7 @@ Read more about xhandler on [Dailymotion engineering blog](http://engineering.da
 
 ## Installing
 
-    go get -u github.com/rs/xhandler
+    go get -u github.com/cool-rest/xhandler
 
 ## Usage
 
@@ -26,8 +26,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/rs/cors"
-	"github.com/rs/xhandler"
+	"github.com/cool-rest/cors"
+	"github.com/cool-rest/xhandler"
 	"golang.org/x/net/context"
 )
 
@@ -86,7 +86,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/rs/xhandler"
+	"github.com/cool-rest/xhandler"
 	"github.com/rs/xmux"
 	"golang.org/x/net/context"
 )
@@ -124,11 +124,11 @@ Feel free to put up a PR linking your middleware if you have built one:
 | Middleware | Author | Description |
 | ---------- | ------ | ----------- |
 | [xmux](https://github.com/rs/xmux) | [Olivier Poitrey](https://github.com/rs) | HTTP request muxer |
-| [xlog](https://github.com/rs/xlog) | [Olivier Poitrey](https://github.com/rs) | HTTP handler logger |
-| [xstats](https://github.com/rs/xstats) | [Olivier Poitrey](https://github.com/rs) | A generic client for service instrumentation |
-| [xaccess](https://github.com/rs/xaccess) | [Olivier Poitrey](https://github.com/rs) | HTTP handler access logger with [xlog](https://github.com/rs/xlog) and [xstats](https://github.com/rs/xstats) |
-| [cors](https://github.com/rs/cors) | [Olivier Poitrey](https://github.com/rs) | [Cross Origin Resource Sharing](http://www.w3.org/TR/cors/) (CORS) support |
+| [xlog](https://github.com/cool-rest/xlog) | [Olivier Poitrey](https://github.com/rs) | HTTP handler logger |
+| [xstats](https://github.com/cool-rest/xstats) | [Olivier Poitrey](https://github.com/rs) | A generic client for service instrumentation |
+| [xaccess](https://github.com/rs/xaccess) | [Olivier Poitrey](https://github.com/rs) | HTTP handler access logger with [xlog](https://github.com/cool-rest/xlog) and [xstats](https://github.com/cool-rest/xstats) |
+| [cors](https://github.com/cool-rest/cors) | [Olivier Poitrey](https://github.com/rs) | [Cross Origin Resource Sharing](http://www.w3.org/TR/cors/) (CORS) support |
 
 ## Licenses
 
-All source code is licensed under the [MIT License](https://raw.github.com/rs/xhandler/master/LICENSE).
+All source code is licensed under the [MIT License](https://raw.github.com/cool-rest/xhandler/master/LICENSE).

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/rs/xhandler"
+	"github.com/cool-rest/xhandler"
 	"golang.org/x/net/context"
 )
 

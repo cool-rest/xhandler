@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rs/cors"
-	"github.com/rs/xhandler"
+	"github.com/cool-rest/cors"
+	"github.com/cool-rest/xhandler"
 	"golang.org/x/net/context"
 )
 
